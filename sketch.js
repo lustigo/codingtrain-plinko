@@ -40,7 +40,7 @@ function setup(){
         plinkos.push(new Plinko(x,i));
       }
     }else{
-      for(var x=-15;x<width;x+=60){
+      for(var x=-30;x<width;x+=60){
         plinkos.push(new Plinko(x,i));
       }
     }
